@@ -1,0 +1,145 @@
+.skills-section { margin-top: 16px; }
+.skills-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-primary);
+  border-radius: 20px;
+  padding: 24px 28px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 20px 60px var(--shadow-dark);
+  animation: fadeInUp 1s ease-out both;
+}
+
+.skills-marquee { overflow: hidden; }
+.skills-track { display: flex; width: max-content; animation: skillsMarquee 12s linear infinite; }
+.skills-icons { display:flex; gap:28px; list-style:none; margin:0; padding: 0 16px; }
+.skills-icons li { flex: 0 0 auto; }
+.icon-box { display:flex; width: 44px; height:44px; align-items:center; justify-content:center;
+  color: var(--text-muted);
+}
+@keyframes skillsMarquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.skills-icons li:hover .icon-box { transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .skills-track { animation: none; }
+}
+
+.skills-section{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  margin-top: 0 !important;
+}
+
+.main-container{ padding-bottom: 6px !important; }
+
+.skills-card{
+  width: min(98vw, 1200px) !important;
+  padding: 14px 18px !important;
+  border-radius: 16px !important;
+}
+
+.skills-track{ animation: skillsMarquee 14s linear infinite !important; }
+@keyframes skillsMarquee{ 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+
+.skills-icons svg{ width:26px !important; height:26px !important; }
+
+.skills-section{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  margin-top: -6px !important;
+}
+.skills-card{
+  width: min(96vw, 880px) !important;
+  padding: 16px 20px !important;
+  border-radius: 16px;
+  animation: fadeInUp 1s ease-out both;
+}
+.skills-marquee{ overflow:hidden; }
+.skills-track{ display:flex; width:max-content; animation: skillsMarquee 16s linear infinite; }
+@keyframes skillsMarquee{ 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+.skills-icons{ display:flex; gap:20px; list-style:none; margin:0; padding:0 12px; }
+.skills-icons svg{ width:30px; height:30px; display:block; color: var(--text-muted); opacity:.95; }
+
+@media (max-width: 720px){
+  .skills-card{ width: min(96vw, 620px) !important; padding: 14px 16px !important; }
+  .skills-icons{ gap:16px; }
+  .skills-icons svg{ width:24px; height:24px; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .skills-track{ animation: none; }
+}
+
+.skills-section{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  margin-top: 2px !important;
+}
+.skills-card{
+  width: min(94vw, 820px) !important;
+  padding: 18px 20px !important;
+  border-radius: 16px;
+  animation: fadeInUp 1s ease-out both;
+}
+.skills-marquee{ overflow:hidden; }
+.skills-track{ display:flex; width:max-content; animation: skillsMarquee3 18s linear infinite; }
+@keyframes skillsMarquee3{ 0%{transform:translateX(0)} 100%{transform:translateX(-33.3333%)} }
+
+.skills-icons{ display:flex; gap:20px; list-style:none; margin:0; padding:0; }
+.skills-icons li{ flex:0 0 auto; }
+.skills-icons svg{ width:32px; height:32px; display:block; color: var(--text-muted); opacity:.95; }
+
+@media (max-width: 720px){
+  .skills-card{ width: min(96vw, 620px) !important; padding: 16px 16px !important; }
+  .skills-icons{ gap:16px; }
+  .skills-icons svg{ width:26px; height:26px; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .skills-track{ animation: none; }
+}
+
+.skills-section{ margin-top: -12px !important; }
+
+.skills-card{ width: min(97vw, 970px) !important; margin-left: 0 !important; margin-right: 0 !important; padding: 18px 22px !important; border-radius: 18px !important; }
+.skills-icons{ gap: 22px !important; padding: 0 14px !important; }
+.skills-icons svg{ width: 36px !important; height: 36px !important; opacity: .98 !important; }
+
+.skills-track{ animation: skillsScroll 20s linear infinite !important; }
+@keyframes skillsScroll{ 0%{transform:translateX(0)} 100%{transform:translateX(-25%)} }
+
+#skills.skills-section { margin-top: -14px !important; }
+
+#skills.skills-section {
+  margin-top: -18px !important;
+}
+
+#skills.skills-section {
+  margin-top: -24px !important;
+}
+
+#skills.skills-section {
+  margin-top: -40px !important;
+}
+
+#skills.skills-section {
+  margin-top: -60px !important;
+}
+
+#skills.skills-section {
+  margin-top: -75px !important;
+}
+
+#skills.skills-section {
+  margin-top: -90px !important;
+}
+
+#skills.skills-section {
+  margin-top: -115px !important;
+}

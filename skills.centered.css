@@ -1,0 +1,9 @@
+.skills-section{ width:100%; display:flex; justify-content:center; margin-top:28px; }
+.skills-card{ width:min(900px,92vw); background:var(--bg-card); border:1px solid var(--border-primary); border-radius:16px; padding:10px 12px; box-shadow:0 12px 36px var(--shadow-dark); opacity:0; transform:translateY(20px); }
+:is(body.entered, body.loaded, body.ready, body.show, body.active, body.gg-entered) .skills-card{ animation: fadeInUp 1s ease-out both; }
+.skills-marquee{ overflow:hidden; }
+.skills-track{ display:flex; width:max-content; animation: skillsMarquee 18s linear infinite; }
+.skills-icons{ display:flex; gap:14px; list-style:none; margin:0; padding:0 8px; }
+.skills-icons svg{ width:20px; height:20px; display:block; color:var(--text-muted); opacity:.85; }
+@keyframes skillsMarquee{ 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+@media (prefers-reduced-motion: reduce){ .skills-track{ animation:none; } }
