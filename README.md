@@ -37,4 +37,4 @@ Content is managed through the `config.json` file. Update your personal informat
       "url": "https://github.com/yourusername/project"
     }
   ]
-}```
+}
