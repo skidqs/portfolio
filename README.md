@@ -1,7 +1,5 @@
 <h2 style="text-align: center;">skidqs portfoilo website</h2>
 
-## Personal Portfolio Website
-
 Welcome to **skidqs.bio**, my personal portfolio website designed to showcase my skills, projects, and professional background with a clean and minimalistic design focused on privacy and performance.
 
 ---
