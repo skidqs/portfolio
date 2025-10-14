@@ -1,4 +1,4 @@
-# skidqs.bio
+<h2 style="text-align: center;">skidqs portfoilo website</h2>
 
 ## Personal Portfolio Website
 
