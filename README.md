@@ -1,25 +1,33 @@
-# My Personal Portfolio
+# skidqs.bio
 
-Welcome to my personal portfolio website! This website showcases my skills, projects, and provides real-time updates on my Spotify and Discord activity.
+## Personal Portfolio Website
 
-## 🎧 Spotify Status
-Currently playing:  
-> *Your currently playing song on Spotify will appear here in real-time.*
+Welcome to the source code of my personal portfolio website, **skidqs.bio**. This site is designed to elegantly showcase my skills, projects, and professional background through a clean, minimal, and privacy-focused interface.
 
-## 💬 Discord Status
-My current Discord status:  
-> *Online / Idle / Do Not Disturb* (with custom status if available)
+---
 
-## 🔗 Links
-- [Discord]([https://www.lindin.com/in/yourusername](https://discord.com/users/219642620270477312))
-- [Telegram](https://t.me/skidqss)
-- [Github](https://github.com/skidqs)
-- (Contact - skidqs@proton.me)
+## Key Features
 
-## 💻 Skills
-- **Frontend:** HTML, CSS, JavaScript, 
-- **Tools & Platforms:** GitHub, VS Code
-- **Other Skills:** API Integration, Responsive Design, UI/UX Design  
+- **Clean & Minimal Design**: Prioritizes readability and simplicity without compromising on aesthetics.
+- **Fully Customizable**: Easily update your bio, social links, projects, and more through a straightforward configuration.
+- **Privacy First**: No analytics, trackers, or cookies to ensure your visitors’ privacy.
+- **Responsive & Accessible**: Optimized for seamless experience across all devices and screen sizes.
+- **Lightweight & Fast**: Minimal dependencies and efficient performance for quick load times.
 
-## 📜 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or newer recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### Installation
+
+Clone this repository and install dependencies:
+
+```bash
+git clone https://github.com/skidqs/skidqs.bio.git
+cd skidqs.bio
+npm install
