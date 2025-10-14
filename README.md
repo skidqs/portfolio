@@ -2,32 +2,39 @@
 
 ## Personal Portfolio Website
 
-Welcome to the source code of my personal portfolio website, **skidqs.bio**. This site is designed to elegantly showcase my skills, projects, and professional background through a clean, minimal, and privacy-focused interface.
+Welcome to **skidqs.bio**, my personal portfolio website designed to showcase my skills, projects, and professional background with a clean and minimalistic design focused on privacy and performance.
 
 ---
 
-## Key Features
+## Features
 
-- **Clean & Minimal Design**: Prioritizes readability and simplicity without compromising on aesthetics.
-- **Fully Customizable**: Easily update your bio, social links, projects, and more through a straightforward configuration.
-- **Privacy First**: No analytics, trackers, or cookies to ensure your visitors’ privacy.
-- **Responsive & Accessible**: Optimized for seamless experience across all devices and screen sizes.
-- **Lightweight & Fast**: Minimal dependencies and efficient performance for quick load times.
+- **Elegant & Minimal Design:** Clear and modern interface prioritizing content.
+- **Fully Customizable:** Easily update your bio, social links, and projects through a simple configuration.
+- **Privacy-Focused:** No trackers, analytics, or cookies—respecting your visitors' privacy.
+- **Responsive & Accessible:** Works seamlessly across devices and screen sizes.
+- **Fast & Lightweight:** Optimized for quick loading and smooth user experience.
 
 ---
 
-## Getting Started
+## Configuration
 
-### Prerequisites
+Content is managed through the `config.json` file. Update your personal information, links, and projects here:
 
-- [Node.js](https://nodejs.org/) (v14 or newer recommended)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
-
-### Installation
-
-Clone this repository and install dependencies:
-
-```bash
-git clone https://github.com/skidqs/skidqs.bio.git
-cd skidqs.bio
-npm install
+```json
+{
+  "name": "Your Name",
+  "bio": "empty",
+  "links": [
+    { "label": "Discord", "url": "https://discord.com/users/userid" },
+    { "label": "Telegram", "url": "https://t.me/username" },
+    { "label": "Github", "url": "https://github.com/username" }
+    { "label": "Contact", "url": "youremail@youremail.youremail" }
+  ],
+  "projects": [
+    {
+      "title": "Project Title",
+      "description": "A concise summary of the project.",
+      "url": "https://github.com/yourusername/project"
+    }
+  ]
+}```
