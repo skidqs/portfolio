@@ -1,5 +1,4 @@
 <h1 style="text-align: center;">skidqs portfoilo website</h1>
-<h1 style="text-align: center;">updating README.md soon</h1>
 
 Welcome to **skidqs.bio**, my personal portfolio website designed to showcase my skills, projects, and professional background with a clean and minimalistic design focused on privacy and performance.
 
